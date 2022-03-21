@@ -111,7 +111,7 @@ set_cb_7 : "Mendapatkan Daftar Pengguna Auth.. TOLONG TUNGGU."
 set_cb_8 : "Kembali.."
 
 # Misc
-ustats_1 :"Tidak Ada Statistik Pengguna Ditemukan."
+ustats_1 : "Tidak Ada Statistik Pengguna Ditemukan."
 ustats_2 : "Salam!, Anda telah memainkan **{0}** trek sampai sekarang dengan hitungan kekalahan **{1}** kali.\n\n{2} teratas yang dimainkan oleh Anda:\n\n"
 
 gstats_1 : "Mendapatkan Statistik Global, Ini bisa memakan waktu..."
