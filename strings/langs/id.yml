@@ -200,7 +200,7 @@ track_2 : "**Error**\n\nTidak ada **{0} Top 10 Playlist** di server bot. Silakan
 #Lyrics
 lirik_1 : "**Penggunaan:**\n\n/lirik [ Nama Musik]"
 lirik_2 : "Mencari Lirik"
-lirik_3 : "❌ Gagal mengambil lirik😭.\n\n💡**Mencoba Mencari:** {0}"
+lirik_3 : "❌ Gagal mengambil lirik😞.\n\n💡**Mencoba Mencari:** {0}"
 lirik_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian lirik jenis spam yang panjang."
 
 #Ping
@@ -251,7 +251,7 @@ S_B_2 : "🔧 Pengaturan"
 S_B_3 : "📨 Dukungan"
 S_B_4 : "📨 Saluran"
 S_B_5 : "✚ Tambahkan saya ke Grup Anda"
-S_B_6 : "💡 Git Repo"
+S_B_6 : "💡 Repository"
 S_B_7 : "👤 Pemilik Bot"
 S_B_8 : "🔎 Bagaimana Cara Menggunakannya? Menu Perintah."
 
