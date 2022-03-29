@@ -149,7 +149,7 @@ async def get_lang(chat_id: int) -> str:
     if not mode:
         lang = await langdb.find_one({"chat_id": chat_id})
         if not lang:
-            langm[chat_id] = "if"
+            langm[chat_id] = "id"
             return "id"
         langm[chat_id] = lang["lang"]
         return lang["lang"]
