@@ -129,8 +129,8 @@ async def get_playmode(chat_id: int) -> str:
     if not mode:
         mode = await playmodedb.find_one({"chat_id": chat_id})
         if not mode:
-            playmode[chat_id] = "Direct"
-            return "Direct"
+            playmode[chat_id] = "Inline"
+            return "Inline"
         playmode[chat_id] = mode["mode"]
         return mode["mode"]
     return mode
@@ -149,8 +149,8 @@ async def get_lang(chat_id: int) -> str:
     if not mode:
         lang = await langdb.find_one({"chat_id": chat_id})
         if not lang:
-            langm[chat_id] = "en"
-            return "en"
+            langm[chat_id] = "if"
+            return "id"
         langm[chat_id] = lang["lang"]
         return lang["lang"]
     return mode
