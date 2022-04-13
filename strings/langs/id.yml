@@ -243,7 +243,7 @@ BACK_BUTTON : "⬅ Kembali"
 UNBAN_BUTTON : "🗑 Unban Asisten"
 
 #Lyrics
-L_B_1 : "🚀 Periksa Lirik Sekarang"
+L_B_1 : "🚀 Lihat Lirik Sekarang"
 
 # Start
 S_B_1 : "🗒 Perintah"
@@ -291,7 +291,7 @@ PL_B_11 : "👤 Mainkan Top 10 Pribadi"
 ST_B_1 : "🔊 Kualitas Suara"
 ST_B_2 : "🎥 Kualitas Video"
 ST_B_3 : "🎩 Pengguna Auth"
-ST_B_4 : "📱 Dasbor"
+ST_B_4 : "📱 Dasboard"
 ST_B_5 : "▶️ Mode Putar"
 ST_B_6 : "🏳️‍🌈 Bahasa"
 ST_B_7 : "🔄 Mode Bersih"
@@ -326,13 +326,13 @@ SA_B_1 : "📢 10 Obrolan Teratas"
 SA_B_2 : "🔢 10 Lagu Teratas"
 SA_B_3 : "🧛 10 Pengguna Teratas"
 SA_B_4 : "🏷 10 Top Disini"
-SA_B_5 : "💡 Statistik Keseluruhan"
-SA_B_6 : "👤 Statistik Pengguna"
+SA_B_5 : "💡 Keseluruhan"
+SA_B_6 : "👤 Stats Pengguna"
 SA_B_7 : "🔢 10 Stats Top Global"
-SA_B_8 : "🤖 Statistik Bot"
+SA_B_8 : "🤖 Stats Bot"
 
 #Queue
-QU_B_1 : "📑 Daftar Antrian"
+QU_B_1 : "💽 Daftar Antrian"
 QU_B_2 : "Dimainkan {0} dari {1} Menit"
 
 # Sudo Users [ If you are translating this to some other language .. you can leave all these strings in english language]
