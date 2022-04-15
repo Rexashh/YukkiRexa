@@ -83,7 +83,7 @@ setting_10 : "⁉️ Naon Ieu?\n\n1) Grup: Muterkeun musik dina grup anu parént
 setting_11 : "⁉️ Naon Ieu?\n\n1) Sarerea: Saha waé nu aya di grup ieu bisa maénkeun musik di dieu.\n\n2) Ngan Admin: Ngan admin nu bisa maénkeun musik dina grup ieu."
 setting_12 : "❌ Anjeun teu gaduh id saluran anu ditetepkeun pikeun mode saluran. Mangga tangtoskeun sareng /channelplay."
 setting_13 : "Teu bisa ngarobah mode muter dina panggero grup aktip. Mangga eureun voice chat heula jeung /stop."
-setting_14 : "⁉️ Naon Ieu?\n\nNalika diaktipkeun, Bot bakal langsung ngahapus paréntah anu dieksekusi (/play, /pause, /shuffle, /stop jsb). ieu tiasa dianggo leres ".
+setting_14 : "⁉️ Naon Ieu?\n\nNalika diaktipkeun, Bot bakal langsung ngahapus paréntah anu dieksekusi (/play, /pause, /shuffle, /stop jsb). ieu tiasa dianggo leres ."
 setting_15 : "Gagal ngalengkepan peer, Punten pastikeun anjeun parantos nambihan bot dina saluran anjeun sareng ngamajukeunana salaku admin.\n\nCoba nyetél /channelplay deui.."
 setting_16 : "⁉️ Naon Ieu?\n\nNalika diaktipkeun, Bot bakal nyarankeun obrolan anjeun unggal 1-2 jam ngeunaan paréntah bot (Kumaha ngagunakeunana, nyaéta paréntah sareng seueur deui) sacara acak."
 
