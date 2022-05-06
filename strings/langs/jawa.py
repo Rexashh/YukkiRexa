@@ -1,4 +1,4 @@
-name : Jawa
+name : jawa
 #By @JustRex
 # General Strings
 general_1 : "Bales pesen pangguna utawa wenehi jeneng panganggo/user_id"
