@@ -46,7 +46,7 @@ def lanuages_keyboard(_):
     keyboard.row(
         InlineKeyboardButton(
             text="🏴‍☠️ Toxic",
-            callback_data=f"languages:cheems",
+            callback_data=f"languages:toxic",
         ),
     )
     keyboard.row(
