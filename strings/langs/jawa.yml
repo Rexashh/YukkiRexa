@@ -183,7 +183,7 @@ playlist_17 : "Posisi Antrian-"
 playlist_18 : "[Checkout Whole Queued Playlist]({0})\n\nPosisi Antrian Terakhir : **{1}**"
 
 #Playmode
-playmode_1 :"Pilih mode sing sampeyan pengin muter pitakon ing grup sampeyan [{0}]."
+playmode_1 : "Pilih mode sing sampeyan pengin muter pitakon ing grup sampeyan [{0}]."
 playmode_2 : "Setelan diganti lan kasil disimpen dening {0}"
 
 #Stream 
