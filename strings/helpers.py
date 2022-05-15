@@ -7,92 +7,92 @@
 #
 # All rights reserved.
 
-HELP_1 = """✅**<u>Admin Commands:</u>**
+HELP_1 = """✅**<u>Perintah Admin:</u>**
 
-**c** stands for channel play.
+**c** singkatan dari pemutaran Channel.
 
-/pause or /cpause - Pause the playing music.
-/resume or /cresume- Resume the paused music.
-/mute or /cmute- Mute the playing music.
-/unmute or /cunmute- Unmute the muted music.
-/skip or /cskip- Skip the current playing music.
-/stop or /cstop- Stop the playing music.
-/shuffle or /cshuffle- Randomly shuffles the queued playlist.
-/seek or /cseek - Forward Seek the music to your duration
-/seekback or /cseekback - Backward Seek the music to your duration
-/restart - Restart bot for your chat .
-
-
-✅<u>**Specific Skip:**</u>
-/skip or /cskip [Number(example: 3)] 
-    - Skips music to a the specified queued number. Example: /skip 3 will skip music to third queued music and will ignore 1 and 2 music in queue.
-
-✅<u>**Loop Play:**</u>
-/loop or /cloop [enable/disable] or [Numbers between 1-10] 
-    - When activated, bot loops the current playing music to 1-10 times on voice chat. Default to 10 times.
-
-✅<u>**Auth Users:**</u>
-Auth Users can use admin commands without admin rights in your chat.
-
-/auth [Username] - Add a user to AUTH LIST of the group.
-/unauth [Username] - Remove a user from AUTH LIST of the group.
-/authusers - Check AUTH LIST of the group."""
+/pause or /cpause - Jeda musik yang diputar.
+/resume or /cresume- Lanjutkan musik yang dijeda.
+/mute or /cmute- Matikan musik yang diputar.
+/unmute or /cunmute- Suarakan musik yang dibisukan.
+/skip or /cskip- Lewati musik yang sedang diputar.
+/stop or /cstop- Hentikan pemutaran musik.
+/shuffle or /cshuffle- Secara acak mengacak daftar putar yang antri.
+/seek or /cseek - Teruskan Cari musik sesuai durasi Anda
+/seekback or /cseekback - Mundur Carilah musik sesuai durasi Anda
+/restart - Mulai ulang bot untuk obrolan Anda .
 
 
-HELP_2 = """✅<u>**Play Commands:**</u>
+✅<u>**Lewati Spesifik:**</u>
+/skip or /cskip [Nomor(contoh: 3)] 
+    - Melewati musik ke nomor antrian yang ditentukan. Contoh: /skip 3 akan melewatkan musik ke musik antrian ketiga dan akan mengabaikan musik 1 dan 2 dalam antrian.
 
-Available Commands = play , vplay , cplay
+✅<u>**Putar Putar:**</u>
+/loop or /cloop [enable/disable] atau [Angka antara 1-10] 
+    - Saat diaktifkan, bot memutar musik yang sedang diputar menjadi 1-10 kali pada obrolan suara. Default ke 10 kali.
 
-ForcePlay Commands = playforce , vplayforce , cplayforce
+✅<u>**Pengguna Auth:**</u>
+Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di Group Anda.
 
-**c** stands for channel play.
-**v** stands for video play.
-**force** stands for force play.
-
-/play or /vplay or /cplay  - Bot will start playing your given query on voice chat or Stream live links on voice chats.
-
-/playforce or /vplayforce or /cplayforce -  **Force Play** stops the current playing track on voice chat and starts playing the searched track instantly without disturbing/clearing queue.
-
-/channelplay [Chat username or id] or [Disable] - Connect channel to a group and stream music on channel's voice chat from your group.
-
-
-✅**<u>Bot's Server Playlists:</u>**
-/playlist  - Check Your Saved Playlist On Servers.
-/deleteplaylist - Delete any saved music in your playlist
-/play  - Start playing Your Saved Playlist from Servers."""
+/auth [Username] - Tambahkan pengguna ke AUTH LIST dari grup.
+/unauth [Username] - Hapus pengguna dari AUTH LIST grup.
+/authusers - Periksa DAFTAR AUTH grup."""
 
 
-HELP_3 = """✅<u>**Bot Commands:**</u>
+HELP_2 = """✅<u>**Play Command:**</u>
 
-/stats - Get Top 10 Tracks Global Stats, Top 10 Users of bot, Top 10 Chats on bot, Top 10 Played in a chat etc etc.
+Perintah yang tersedia = play , vplay , cplay
 
-/sudolist - Check Sudo Users of Yukki Music Bot
+Perintah ForcePlay = playforce , vplayforce , cplayforce
 
-/lyrics [Music Name] - Searches Lyrics for the particular Music on web.
+**c** singkatan dari pemutaran Channel.
+**v** singkatan dari pemutaran video.
+**force** singkatan dari force play.
 
-/song [Track Name] or [YT Link] - Download any track from youtube in mp3 or mp4 formats.
+/play atau /vplay atau /cplay  - Bot akan mulai memainkan kueri yang Anda berikan di obrolan suara atau Streaming tautan langsung di obrolan suara.
 
-/player -  Get a interactive Playing Panel.
+/playforce atau /vplayforce atau /cplayforce -  **Force Play** menghentikan trek yang sedang diputar pada obrolan suara dan mulai memutar trek yang dicari secara instan tanpa mengganggu/mengosongkan antrean.
 
-**c** stands for channel play.
+/channelplay [Nama pengguna atau id obrolan] atau [Disable] - Hubungkan saluran ke grup dan streaming musik di obrolan suara saluran dari grup Anda.
 
-/queue or /cqueue- Check Queue List of Music."""
 
-HELP_4 = """✅<u>**Extra  Commands:**</u>
-/start - Start the Music Bot.
-/help  - Get Commands Helper Menu with detailed explanations of commands.
-/ping- Ping the Bot and check Ram, Cpu etc stats of Bot.
+✅**<u>Daftar Putar Server Bot:</u>**
+/playlist  - Periksa Daftar Putar Tersimpan Anda Di Server.
+/deleteplaylist - Hapus semua musik yang disimpan di daftar putar Anda
+/play  - Mulai mainkan Daftar Putar Tersimpan Anda dari Server."""
 
-✅<u>**Group Settings:**</u>
-/settings - Get a complete group's settings with inline buttons
 
-🔗 **Options in Settings:**
+HELP_3 = """✅<u>**Perintah Bot:**</u>
 
-1️⃣ You can set **Audio Quality** you want to stream on voice chat.
+/stats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll.
 
-2️⃣ You can set **Video Quality** you want to stream on voice chat.
+/sudolist - Periksa Sudo Pengguna Xa Music Bot
 
-3️⃣ **Auth Users**:- You can change admin commands mode from here to everyone or admins only. If everyone, anyone present in you group will be able to use admin commands(like /skip, /stop etc)
+/lyrics [Nama Musik] mencari Lirik untuk Musik tertentu di web.
+
+/song [Nama Trek] atau [Tautan YT] - Unduh trek apa pun dari youtube dalam format mp3 atau mp4.
+
+/player -  Dapatkan Panel Bermain interaktif.
+
+**c** singkatan dari pemutaran saluran.
+
+/queue or /cqueue- Periksa Daftar Antrian Musik."""
+
+HELP_4 = """✅<u>**Perintah Ekstra:**</u>
+/start - Mulai Bot Musik.
+/help - Dapatkan Menu Pembantu Perintah dengan penjelasan rinci tentang perintah.
+/ping- Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
+
+✅<u>**Pengaturan Grup:**</u>
+/settings - Dapatkan pengaturan grup lengkap dengan tombol sebaris
+
+🔗 **Opsi di Pengaturan:**
+
+1️⃣ You can set **ingin Kualitas Audio** Anda streaming di obrolan suara.
+
+2️⃣ You can set **Kualitas Video** Anda ingin streaming di obrolan suara.
+
+3️⃣ **Auth Users**:- Anda dapat mengubah mode perintah admin dari sini ke semua orang atau hanya admin. Jika semua orang, siapa pun yang ada di grup Anda dapat menggunakan perintah admin (seperti /skip, /stop dll)
 
 4️⃣ **Clean Mode:** When enabled deletes the bot's messages after 5 mins from your group to make sure your chat remains clean and good.
 
