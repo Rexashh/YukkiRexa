@@ -283,21 +283,21 @@ async def overall_stats(client, CallbackQuery, _):
     cm = config.CLEANMODE_DELETE_MINS
     text = f"""**Bot's Stats and Information:**
 
-**Imported Modules:** {mod}
-**Served Chats:** {served_chats} 
-**Served Users:** {served_users} 
-**Blocked Users:** {blocked} 
-**Sudo Users:** {sudoers} 
+**Modul yang Diimpor:** {mod}
+**Group yang Dilayani:** {served_chats} 
+**Pengguna yang Dilayani:** {served_users} 
+**Pengguna diblokir:** {blocked} 
+**Pengguna Sudo:** {sudoers} 
     
 **Total Queries:** {total_queries} 
-**Total Assistants:** {assistant}
-**Auto Leaving Assistant:** {ass}
-**Cleanmode duration:** {cm} Mins
+**Jumlah Asisten:** {assistant}
+**Asisten Keluar Otomatis:** {ass}
+**Durasi mode bersih:** {cm} Mins
 
-**Play Duration Limit:** {play_duration} Mins
-**Song Download Limit:** {song} Mins
-**Bot's Server Playlist Limit:** {playlist_limit}
-**Playlist Play Limit:** {fetch_playlist}"""
+**Batas Durasi Putar:** {play_duration} Mins
+**Batas Unduh Lagu:** {song} Mins
+**Batas Daftar Putar Server Bot:** {playlist_limit}
+**Batas Putar Daftar Putar:** {fetch_playlist}"""
     med = InputMediaPhoto(media=config.STATS_IMG_URL, caption=text)
     try:
         await CallbackQuery.edit_message_media(
@@ -368,33 +368,33 @@ async def overall_stats(client, CallbackQuery, _):
     sudoers = len(await get_sudoers())
     text = f""" **Bot's Stats and Information:**
 
-**Imported Modules:** {mod}
+**Modul yang Diimpor:** {mod}
 **Platform:** {sc}
 **Ram:** {ram}
 **Physical Cores:** {p_core}
 **Total Cores:** {t_core}
-**Cpu Frequency:** {cpu_freq}
+**Frekuensi CPU:** {cpu_freq}
 
-**Python Version :** {pyver.split()[0]}
-**Pyrogram Version :** {pyrover}
-**Py-TgCalls Version :** {pytgver}
+**Versi Python :** {pyver.split()[0]}
+**Versi Pyrogram :** {pyrover}
+**Versi Py-TgCalls :** {pytgver}
 
-**Storage Avail:** {total[:4]} GiB
-**Storage Used:** {used[:4]} GiB
-**Storage Left:** {free[:4]} GiB
+**Penyimpanan Tersedia:** {total[:4]} GiB
+**Penyimpanan Digunakan:** {used[:4]} GiB
+**Sisa Penyimpanan:** {free[:4]} GiB
 
-**Served Chats:** {served_chats} 
-**Served Users:** {served_users} 
-**Blocked Users:** {blocked} 
-**Sudo Users:** {sudoers} 
+**Group yang Dilayani:** {served_chats} 
+**Pengguna yang Dilayani:** {served_users} 
+**Pengguna diblokir:** {blocked} 
+**Pengguna Sudo:** {sudoers} 
 
-**Mongo Uptime:** {mongouptime[:4]} Days
-**Total DB Size:** {datasize[:6]} Mb
-**Total DB Storage:** {storage} Mb
-**Total DB Collections:** {collections}
-**Total DB Keys:** {objects}
-**Total DB Queries:** `{query}`
-**Total Bot Queries:** `{total_queries} `
+**Waktu Aktif Mongo:** {mongouptime[:4]} Days
+**Total Ukuran DB:** {datasize[:6]} Mb
+**Total Penyimpanan DB:** {storage} Mb
+**Total Koleksi DB:** {collections}
+**Jumlah Tombol DB:** {objects}
+**Total Kueri DB:** `{query}`
+**Total Kueri Bot:** `{total_queries} `
     """
     med = InputMediaPhoto(media=config.STATS_IMG_URL, caption=text)
     try:
