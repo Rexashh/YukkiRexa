@@ -104,11 +104,11 @@ HELP_4 = """✅<u>**Perintah Ekstra:**</u>
 
 <u>Options in playmode:</u>
 
-1️⃣ **Search Mode** [Direct or Inline] - Changes your search mode while you give /play mode. 
+1️⃣ **Search Mode** [Direct atau Inline] - Mengubah mode pencarian Anda saat Anda memberikan mode /play. 
 
-2️⃣ **Admin Commands** [Everyone or Admins] - If everyone, anyone present in you group will be able to use admin commands(like /skip, /stop etc)
+2️⃣ **Admin Commands** [Everyone atau Admins] - Jika semua orang, siapa pun yang ada di grup Anda akan dapat menggunakan perintah admin (seperti /skip, /stop dll)
 
-3️⃣ **Play Type** [Everyone or Admins] - If admins, only admins present in group can play music on voice chat."""
+3️⃣ **Play Type** [Everyone or Admins] - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara."""
 
 HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /addsudo [Username or Reply to a user]
