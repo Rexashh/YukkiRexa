@@ -225,14 +225,14 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan pengunggahan mungkin lambat. Harap 
 queue_1 : "Mohon Tunggu..Mengambil Antrian.."
 queue_2 : "Daftar Antrian kosong. Tidak ada trek yang ditemukan"
 queue_3 : "<u>**Trek Antrian:</u>** [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-queue_4 : "⏳ Ditambahkan ke Antrian di **#{0}\n\n💡Judul:** {1}\n**⌚Durasi:** {2}\n👤**Ditambahkan Oleh:** {3 }"
+queue_4 : "⏳ Ditambahkan ke Antrian di **#{0}\n\n💡Judul:** {1}\n⏰**Durasi:** {2}\n👤**Ditambahkan Oleh:** {3 }"
 queue_5 : "Hanya satu track di dalam antrian, Silahkan tambahkan lagi untuk check list"
 
 # All Streaming Lines
 stream_1 : "⚡ **Memulai Streaming** 💡\n\n👤**Diminta Oleh:** {0}\n🔍**Informasi: **[Klik Disini]({1})"
 stream_2 : "⚡ **Memulai Streaming melalui URL ** \n\n👤**Diminta Oleh:** {0}"
-stream_3 : "⚡ **Memulai Streaming** 💡\n\n**🏷Judul:** {0}\n⌛️**Durasi**: {1}\n👤**Diminta Oleh:** {2} "
-stream_4 : "⚡ **Memulai Streaming** \n\n**🏷Judul:** [{0}]({1})\n⌛️**Durasi**: {2}\n👤**Diminta Oleh:** {3}"
+stream_3 : "⚡ **Memulai Streaming** 💡\n\n**🏷Judul:** {0}\n⏰**Durasi**: {1}\n👤**Diminta Oleh:** {2} "
+stream_4 : "⚡ **Memulai Streaming** \n\n**🏷Judul:** [{0}]({1})\n⏰**Durasi**: {2}\n👤**Diminta Oleh:** {3}"
 
 # Inline Buttons
 
@@ -243,7 +243,7 @@ BACK_BUTTON : "⬅ Kembali"
 UNBAN_BUTTON : "🗑 Unban Asisten"
 
 #Lyrics
-L_B_1 : "🚀 Lihat Lirik Sekarang"
+L_B_1 : "🚀 Lihat Lirik"
 
 # Start
 S_B_1 : "🗒 Perintah"
@@ -311,13 +311,13 @@ ST_B_20 : "✅ Langsung"
 ST_B_21 : "✅ Sebaris"
 ST_B_22 : "👨‍⚖️ Perintah Admin"
 ST_B_23 : "🏘 Grup"
-ST_B_24 : "🏷 Saluran"
+ST_B_24 : "🏷 Channel"
 ST_B_25 : "🎮 Jenis Permainan"
 ST_B_26 : "🗑 Perintah Bersih"
 ST_B_27 : "🧑‍🚀 Mode Saran"
 
 #Song
-SG_B_1 : "↗️ Buka Obrolan Pribadi"
+SG_B_1 : "🤖 Buka Obrolan Pribadi"
 SG_B_2 : "🔊 Audio"
 SG_B_3 : "🎥 Video"
 
@@ -343,7 +343,7 @@ sudo_2 : "Ditambahkan *{0}** ke Pengguna Sudo."
 sudo_3 : "Bukan bagian dari Sudo Bot."
 sudo_4 : "Dihapus dari Pengguna Sudo Bot"
 sudo_5 : "👑<u> **Pemilik:**</u>\n"
-sudo_6 : "\n👨‍🚀<u> **Pengguna Sudo:**</u>\n"
+sudo_6 : "\n👨‍💻<u> **Pengguna Sudo:**</u>\n"
 sudo_7 : "Tidak Ada Pengguna Sudo"
 
 #Block
