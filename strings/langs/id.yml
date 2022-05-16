@@ -192,16 +192,16 @@ str_2 : "✅ Aliran Valid Terverifikasi\n\nHarap tunggu memproses tautan.."
 str_3 : "Tidak dapat melakukan streaming streaming langsung youtube. Format Langsung Tidak Ditemukan"
 
 #TopPlay
-trek_1 : "**Memproses {0} Daftar Putar 10 Teratas**\nIni bisa memakan waktu beberapa menit (sekitar 3-4 menit).. Harap Tunggu...\n\n**👤Diminta Oleh:** {1}\ n\nPeriksa 10 lagu teratas menurut /gstats"
+track_1 : "**Memproses {0} Daftar Putar 10 Teratas**\nIni bisa memakan waktu beberapa menit (sekitar 3-4 menit).. Harap Tunggu...\n\n**👤Diminta Oleh:** {1}\ n\nPeriksa 10 lagu teratas menurut /gstats"
 track_2 : "**Error**\n\nTidak ada **{0} Top 10 Playlist** di server bot. Silakan coba playlist lain"
 
 # TOOLS
 
 #Lyrics
-lirik_1 : "**Penggunaan:**\n\n/lirik [ Nama Musik]"
-lirik_2 : "Mencari Lirik"
-lirik_3 : "❌ Gagal mengambil lirik😞.\n\n💡**Mencoba Mencari:** {0}"
-lirik_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian lirik jenis spam yang panjang."
+lyrics_1 : "**Penggunaan:**\n\n/lirik [ Nama Musik]"
+lyrics_2 : "Mencari Lirik"
+lyrics_3 : "❌ Gagal mengambil lirik😞.\n\n💡**Mencoba Mencari:** {0}"
+lyrics_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian lirik jenis spam yang panjang."
 
 #Ping
 ping_1 : "Pong!!!!"
@@ -223,9 +223,9 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan pengunggahan mungkin lambat. Harap 
 
 # Tools - Queue
 queue_1 : "Mohon Tunggu..Mengambil Antrian.."
-antrian_2 : "Daftar Antrian kosong. Tidak ada trek yang ditemukan"
+queue_2 : "Daftar Antrian kosong. Tidak ada trek yang ditemukan"
 queue_3 : "<u>**Trek Antrian:</u>** [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-antrian_4 : "⏳ Ditambahkan ke Antrian di **#{0}\n\n💡Judul:** {1}\n**⏱Durasi:** {2}\n👤**Ditambahkan Oleh:** {3 }"
+queue_4 : "⏳ Ditambahkan ke Antrian di **#{0}\n\n💡Judul:** {1}\n**⏱Durasi:** {2}\n👤**Ditambahkan Oleh:** {3 }"
 queue_5 : "Hanya satu track di dalam antrian, Silahkan tambahkan lagi untuk check list"
 
 # All Streaming Lines
