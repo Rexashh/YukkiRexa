@@ -131,8 +131,8 @@ gstats_11 : "**Statistik Umum {0}**\nPilih tombol dari bawah yang ingin Anda per
 # Play 
 
 #Play Callback 
-play cb1 : "Ini bukan buat lo tolol ! Cari Lagumu Sendiri mmk."
-play cb2 : "Mendapatkan Hasil Selanjutnya jink"
+play_cb1 : "Ini bukan buat lo tolol ! Cari Lagumu Sendiri mmk."
+play_cb2 : "Mendapatkan Hasil Selanjutnya jink"
 
 # Channel Play
 cplay_1 : "Anda dapat memutar musik di Channel dari obrolan ini[{0}] ke channel mana pun atau Channdl tertaut obrolan Anda.\n\n**Untuk saluran tertaut:**\n`/{1} linked`\n\n* *Untuk Channel lainnya:**\n`/{1} [ID Channel]`"
@@ -143,7 +143,7 @@ cplay_5 : "Hanya Channel yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** channel[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Channel:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke channel itu lalu coba sambungkan dengan `/channelplay linked`"
 
 #Play
-play_1 : "🔄 Lagi diproses Request an lu mek... Tunggu bentar anjing! gratis gasabaran gausah make"
+play_1 : "🔄 Lagi diproses Request an lu mek... Tunggu bentar anjing! gratis gasabaran, Ga donasi gausah make"
 play_2 : "**🏷Mode Putar Channel**\n\n🔄 Memproses Kueri... Harap Tunggu!\n**Saluran Tertaut:** {0}"
 play_3 : "Mampus gagal jink!"
 play_4 : "🖇 **Admin Only Play**\nCuma admin yang bisa play.\n\nUbah mode melalui /playmode dan jika Anda sudah menjadi admin, muat ulang admincache melalui /admincache"
@@ -193,16 +193,16 @@ str_2 : "✅ Aliran Valid Terverifikasi\n\nHarap tunggu memproses tautan.."
 str_3 : "Tidak dapat melakukan streaming streaming langsung youtube. Format Langsung Tidak Ditemukan"
 
 #TopPlay
-trek_1 : "**Memproses {0} Daftar Putar 10 Teratas**\nIni bisa memakan waktu beberapa menit (sekitar 3-4 menit).. Harap Tunggu...\n\n**👤Diminta Oleh:** {1}\ n\nPeriksa 10 lagu teratas menurut /gstats"
+track_1 : "**Memproses {0} Daftar Putar 10 Teratas**\nIni bisa memakan waktu beberapa menit (sekitar 3-4 menit).. Harap Tunggu...\n\n**👤Diminta Oleh:** {1}\ n\nPeriksa 10 lagu teratas menurut /gstats"
 track_2 : "**Error**\n\nTidak ada **{0} Top 10 Playlist** di server bot. Silakan coba playlist lain"
 
 # TOOLS
 
 #Lyrics
-lirik_1 : "**Penggunaan:**\n\n/lirik [ Nama Musik]"
-lirik_2 : "Mencari Lirik"
-lirik_3 : "❌ Gagal mengambil lirik lo mek.\n\n💡**Mencoba Mencari:** {0}"
-lirik_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian lirik jenis spam yang panjang."
+lyrics_1 : "**Penggunaan:**\n\n/lirik [ Nama Musik]"
+lyrics_2 : "Mencari Lirik"
+lyrics_3 : "❌ Gagal mengambil lirik lo mek.\n\n💡**Mencoba Mencari:** {0}"
+lyrics_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian lirik jenis spam yang panjang."
 
 #Ping
 ping_1 : "Duarrr memek!!!!"
@@ -224,16 +224,16 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan pengunggahan mungkin lambat. Harap 
 
 # Tools - Queue
 queue_1 : "Tunggu bentar jink..Lagi berusaha ambil antrian, tunggu ya anjg gausah marah marah..."
-antrian_2 : "Kosong anjg. Ga ada antriannya!"
+queue_2 : "Kosong anjg. Ga ada antriannya!"
 queue_3 : "<u>**Trek Antrian:</u>** [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-antrian_4 : "⏳ ditambahin ke antrian **#{0}\n\n💡Judul:** {1}\n**⏱Durasi:** {2}\n👤**Ditambahkan Oleh:** {3 }"
+queue_4 : "⏳ ditambahin ke antrian ya anjing **#{0}\n\n💿Judul:** {1}\n⏰**Durasi:** {2}\n👤**Ditambahkan Oleh:** {3}"
 queue_5 : "Cuma satu lagi memek, Tambahin lagunya lagi tolol"
 
 # All Streaming Lines
-stream_1 : "📡 **Memulai Streaming** 💡\n\n👤**Diminta Oleh:** {0}\n🔦**Informasi: **[Di Sini]({1})"
-stream_2 : "📡 **Memulai Streaming melalui URL ** \n\n👤**Diminta Oleh:** {0}"
-stream_3 : "📡 **Memulai Streaming** 💡\n\n**🏷Judul:** {0}\n⌛️**Durasi**: {1}\n👤**Diminta Oleh:** {2} "
-stream_4 : "📡 **Memulai Streaming** \n\n**🏷Judul:** [{0}]({1})\n⌛️**Durasi**: {2}\n👤**Diminta Oleh:** {3}"
+stream_1 : "☠️ **Memulai Streaming** 💿\n\n👤**Diminta Oleh:** {0}\n🔍**Informasi: **[Di Sini]({1})"
+stream_2 : "☠️ **Memulai Streaming melalui URL ** \n\n👤**Diminta Oleh:** {0}"
+stream_3 : "☠️ **Memulai Streaming** 💿\n\n**🏷Judul:** {0}\n⌛️**Durasi**: {1}\n👤**Diminta Oleh:** {2} "
+stream_4 : "☠️ **Memulai Streaming** \n\n**🏷Judul:** [{0}]({1})\n⌛️**Durasi**: {2}\n👤**Diminta Oleh:** {3}"
 
 # Inline Buttons
 
@@ -312,7 +312,7 @@ ST_B_20 : "✅ Langsung"
 ST_B_21 : "✅ Sebaris"
 ST_B_22 : "👨‍⚖️ Perintah Admin"
 ST_B_23 : "🏘 Grup"
-ST_B_24 : "🏷 Saluran"
+ST_B_24 : "🏷 Channel"
 ST_B_25 : "🕹️ Jenis Permainan"
 ST_B_26 : "🗑 Perintah Bersih"
 ST_B_27 : "🧑‍🚀 Mode Saran"
