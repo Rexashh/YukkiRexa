@@ -3,6 +3,7 @@ services:
   worker:
     build: .
     environment:
+# BY https://t.me/JustRex gausah dihapus anjg klo ngeclone
 # IMPORTANT
       STRING_SESSION: $STRING_SESSION
       API_ID: $API_ID
