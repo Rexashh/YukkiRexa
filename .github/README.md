@@ -1,7 +1,7 @@
 ![](https://github.com/Rexashh/yukkixa/blob/4d0892d9b4dd75231ec240c90a4571f755a77864/Utils/e1f986194ed9ce5f62cc9d26e7f01ee0.gif)
 
 <h4 align="center">
-    𝙍𝙀𝙋𝙊𝙎𝙄𝙏𝙊𝙍𝙔 𝙄𝙉𝙄 𝙈𝙄𝙇𝙄𝙆 𝙔𝙐𝙆𝙆𝙄 𝙑𝙀𝙍𝙎𝙄 𝙇𝘼𝙒𝘼𝙎, 𝘿𝘼𝙉 𝙎𝘼𝙔𝘼 𝙃𝘼𝙉𝙔𝘼 𝘾𝙇𝙊𝙉𝙄𝙉𝙂 𝙈𝙀𝙍𝙐𝘽𝘼𝙃 𝘽𝘼𝙃𝘼𝙎𝘼 𝙈𝙀𝙉𝙅𝘼𝘿𝙄 𝘽𝘼𝙃𝘼𝙎𝘼 𝙄𝙉𝘿𝙊𝙉𝙀𝙎𝙄𝘼 𝘿𝘼𝙉 𝙇𝘼𝙄𝙉 𝙇𝘼𝙄𝙉.
+     BASE REPO MUSIC YUKKI MUSIC BOT SAYA HANYA CLONING, MERUBAH / ATAU MENAMBAH BAHASA INDONESIA SUNDA, JAWA, & TOXIC
 </h4>
 
 
@@ -20,7 +20,8 @@
 <summary><b>🚀 DEPLOY </b></summary>
 <br>
 
-<h4>ʜᴇʀᴏᴋᴜ</h4>    
+### ʜᴇʀᴏᴋᴜ   
+- klik tombol dibawah untuk deploy via Heroku :
 <p><a href="https://dashboard.heroku.com/new?template=https://github.com/Rexashh/YukkiRexa/tree/master"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>  
 
 ### ᴠᴘs
@@ -47,6 +48,11 @@
 - Jalankan bot ketik :
 `bash start`
 
+### ᴏᴋᴛᴇᴛᴏ
+- Fork Repository ini 
+- Klik [OKTETO](https://www.okteto.com)
+- Masukan Var dan data mu, untuk melihat var apa saja yang ada silahkan klik dibawah
+- [List Variable](https://github.com/Rexashh/YukkiRexa/blob/master/config/README.md)
 
 </details>
 
