@@ -32,16 +32,16 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER("YukkiMusic").error(
-            "No Assistant Clients Vars Defined!.. Exiting Process."
+        LOGGER("RexaMusic").error(
+            "Tidak Ada Asisten Klien yang Ditentukan Vars!.. Exiting Process."
         )
         return
     if (
         not config.SPOTIFY_CLIENT_ID
         and not config.SPOTIFY_CLIENT_SECRET
     ):
-        LOGGER("YukkiMusic").warning(
-            "No Spotify Vars defined. Your bot won't be able to play spotify queries."
+        LOGGER("RexaMusic").warning(
+            "Tidak ada Spotify Vars yang ditentukan. Bot Anda tidak akan dapat memainkan kueri spotify."
         )
     try:
         users = await get_gbanned()
@@ -65,17 +65,17 @@ async def init():
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
         )
     except NoActiveGroupCall:
-        LOGGER("YukkiMusic").error(
-            "[ERROR] - \n\nPlease turn on your Logger Group's Voice Call. Make sure you never close/end voice call in your log group"
+        LOGGER("RexaMusic").error(
+            "[ERROR] - \n\nSilakan aktifkan Panggilan Suara Grup Logger Anda. Pastikan Anda tidak pernah menutup/mengakhiri panggilan suara di grup log Anda"
         )
         sys.exit()
     except:
         pass
     await Yukki.decorators()
-    LOGGER("YukkiMusic").info("Bot Musik Xa Dimulai")
+    LOGGER("RexaMusic").info("Bot Musik Berhasil dibuat Berikan Ucapan Terimakasih kepada Rexa :D")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("YukkiMusic").info("Menghentikan Xa Music Bot! ")
+    LOGGER("RexaMusic").info("Menghentikan Xa Music Bot! ")
