@@ -32,7 +32,7 @@ def PlayWrapper(command):
         if PRIVATE_BOT_MODE == str(True):
             if not await is_served_private_chat(message.chat.id):
                 await message.reply_text(
-                    "**Private Music Bot**\n\nOnly for authorized chats from the owner. Ask my owner to allow your chat first."
+                    "**Bot Musik Pribadi**\n\nHanya untuk obrolan resmi dari pemiliknya. Minta pemilik saya untuk mengizinkan obrolan Anda terlebih dahulu."
                 )
                 return await app.leave_chat(message.chat.id)
         if await is_commanddelete_on(message.chat.id):
@@ -78,7 +78,7 @@ def PlayWrapper(command):
                 [
                     [
                         InlineKeyboardButton(
-                            text="How to Fix this? ",
+                            text="Bagaimana Memperbaikinya?? ",
                             callback_data="AnonymousAdmin",
                         ),
                     ]
