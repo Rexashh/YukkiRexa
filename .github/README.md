@@ -54,6 +54,9 @@
 - Masukan Var dan data mu, untuk melihat var apa saja yang ada silahkan klik dibawah
 - [List Variable](https://github.com/Rexashh/YukkiRexa/blob/master/config/README.md)
 
+### ʟɪsᴛ ᴘᴇʀɪɴᴛᴀʜ
+- Klik [disini](https://github.com/Rexashh/YukkiRexa/blob/master/strings/command.yml) untuk melihat semua perintah pada bot music
+
 </details>
 
 <details>
