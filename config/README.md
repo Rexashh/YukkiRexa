@@ -1,4 +1,4 @@
-Music Bot Configs
+#Music Bot Configs
 
 Config vars pada dasarnya adalah variabel yang mengonfigurasi atau memodifikasi bot agar berfungsi, yang merupakan kebutuhan dasar plugin atau kode agar berfungsi. Anda harus mengatur vars wajib yang tepat untuk membuatnya berfungsi
 
