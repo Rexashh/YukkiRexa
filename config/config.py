@@ -146,19 +146,18 @@ STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
 
-#  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____   ____   ____ _______
-#  \ \   / / |  | | |/ / |/ /_   _| |  \/  | |  | |/ ____|_   _/ ____| |  _ \ / __ \__   __|
-#   \ \_/ /| |  | | ' /| ' /  | |   | \  / | |  | | (___   | || |      | |_) | |  | | | |
-#    \   / | |  | |  < |  <   | |   | |\/| | |  | |\___ \  | || |      |  _ <| |  | | | |
-#     | |  | |__| | . \| . \ _| |_  | |  | | |__| |____) |_| || |____  | |_) | |__| | | |
-#     |_|   \____/|_|\_\_|\_\_____| |_|  |_|\____/|_____/|_____\_____| |____/ \____/  |_|
-
+#     ____  _______  __ ___       __  _____  _______ __________
+#    / __ \/ ____/ |/ //   |     /  |/  / / / / ___//  _/ ____/
+#   / /_/ / __/  |   // /| |    / /|_/ / / / /\__ \ / // /     
+#  / _, _/ /___ /   |/ ___ |   / /  / / /_/ /___/ // // /___   
+# /_/ |_/_____//_/|_/_/  |_|  /_/  /_/\____//____/___/\____/   
+                                                             
 
 ### DONT TOUCH or EDIT codes after this line
 BANNED_USERS = filters.user()
 YTDOWNLOADER = 1
 LOG = 2
-LOG_FILE_NAME = "Yukkilogs.txt"
+LOG_FILE_NAME = "YukkiRexalogs.txt"
 adminlist = {}
 lyrical = {}
 chatstats = {}
@@ -354,6 +353,6 @@ if TELEGRAM_VIDEO_URL:
 
 if not MUSIC_BOT_NAME.isascii():
     print(
-        "[ERROR] - You've defined MUSIC_BOT_NAME wrong. Please don't use any special characters or Special font for this... Keep it simple and small."
+        "[ERROR] - Anda salah mendefinisikan MUSIC_BOT_NAME. Tolong jangan gunakan karakter khusus atau font khusus untuk ini... Keep it simple and small."
     )
     sys.exit()
