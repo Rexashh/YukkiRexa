@@ -1,116 +1,100 @@
 # Yukki Music Bot Configs
 
-Config vars are basically the variables which configure or modify bot to function, which are the basic necessities of plugins or code to work. You have to set the proper mandatory vars to make it functional and to start the basic feature of bot.
+Config vars pada dasarnya adalah variabel yang mengonfigurasi atau memodifikasi bot agar berfungsi, yang merupakan kebutuhan dasar plugin atau kode agar berfungsi. Anda harus mengatur vars wajib yang tepat untuk membuatnya berfungsi
 
-### Get to know about all these vars in depth from our Docs. [Read Now from Here](https://notreallyshikhar.gitbook.io/yukkimusicbot/config-vars/available-vars)
+- Ini adalah vars minimum yang diperlukan untuk membuat Yukki Music Bot berfungsi.
 
-## Mandatory Vars
-
-- These are the minimum required vars need to setup to make Yukki Music Bot functional.
-
-1. `API_ID` : Get it from my.telegram.org 
-2. `API_HASH`  : Get it from my.telegram.org 
+1. `API_ID` : Dapatkan dari my.telegram.org
+2. `API_HASH` : Dapatkan dari my.telegram.org 
 3. `BOT_TOKEN` : Get it from [@Botfather](http://t.me/BotFather) in Telegram
-4. `MONGO_DB_URI` : Get mongo db [from here.](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb)
-5. `LOG_GROUP_ID` : You'll need a Private Group ID for this. Supergroup Needed with id starting from -100 
-6. `MUSIC_BOT_NAME` : A name for your Music bot.
-7. `OWNER_ID` : Your Owner ID for managing your bot.
-8. `STRING_SESSION` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
+4. `MONGO_DB_URI` : dapatkan mongo db [disini](https://www.mongodb.com)
+5. `LOG_GROUP_ID` ​​: Buatlah Group Super /public group dan masukan bot Rose ketik /id
+7. `OWNER_ID` : ID Pemilik Anda untuk mengelola bot Anda.
+8. `STRING_SESSION` : Diperlukan Sesi Pyrogram, Hasilkan string dari [@xastringbot](http://t.me/xastringbot) di Telegram.
 
 
-## Non-Mandatory Vars
+## Vars Tidak Wajib
 
-- These are the extra vars for extra features inside Music Bot. You can leave non mandatory vars for now and can add them later.
+- Ini adalah vars tambahan untuk fitur tambahan di dalam Bot Musik. Anda dapat meninggalkan vars yang tidak wajib untuk saat ini dan dapat menambahkannya nanti.
 
-1. `DURATION_LIMIT` : Custom max audio(music) duration for voice chat. Default to 60 mins.
-2. `SONG_DOWNLOAD_DURATION_LIMIT`  : Duration Limit for downloading Songs in MP3 or MP4 format from bot. Default to 180 mins.
-3. `VIDEO_STREAM_LIMIT` : Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram. Default to 3 chats.
-4. `SERVER_PLAYLIST_LIMIT` : Maximum Limit Allowed for users to save playlists on bot's server. Default to 30
-5. `PLAYLIST_FETCH_LIMIT` :  Maximum limit for fetching playlist's track from youtube, spotify, apple links. Default to 25
-6. `CLEANMODE_MINS` : Cleanmode time after which bot will delete its old messages from chats. Default to 5 Mins.
-7. `SUPPORT_CHANNEL` : If you've any channel for your music bot , fill it with your channel link
-8. `SUPPORT_GROUP` : If you've any group support for your music bot , fill it with your channel link
+1. `DURATION_LIMIT` : Durasi audio (musik) maks khusus untuk obrolan suara. Default untuk 60 menit.
+2. `SONG_DOWNLOAD_DURATION_LIMIT` : Batas Durasi untuk mendownload Lagu dalam format MP3 atau MP4 dari bot. Default ke 180 menit.
+3. `VIDEO_STREAM_LIMIT` : Jumlah maksimum panggilan video yang diizinkan di bot. Nanti bisa diatur lewat /set_video_limit di telegram. Default untuk 3 obrolan.
+4.`SERVER_PLAYLIST_LIMIT`: Batas Maksimum Diizinkan bagi pengguna untuk menyimpan daftar putar di server bot. Standar ke 30
+6. `CLEANMODE_MINS` : Waktu Cleanmode setelah bot akan menghapus pesan lama dari obrolan. Default ke 5 Menit.
+7. `SUPPORT_CHANNEL` : Jika Anda memiliki saluran untuk bot musik Anda, isi dengan tautan saluran Anda
+8. `SUPPORT_GROUP` : Jika Anda memiliki dukungan grup untuk bot musik Anda, isi dengan tautan saluran Andae Limit Vars
 
-## Play FileSize Limit Vars
+## Putar Batas Ukuran File Vars
 
-- Maximum File size limit for the audio and videos that a user can play from your bot. [Only Bytes Size Accepted]
-> You can convert mb into bytes from https://www.gbmb.org/mb-to-bytes and use it here 
+- Batas ukuran file maksimum untuk audio dan video yang dapat diputar pengguna dari bot Anda. [Hanya Ukuran Byte yang Diterima]
+> Anda dapat mengonversi mb menjadi byte dari https://www.gbmb.org/mb-to-bytes dan menggunakannya di sini
 
-1. `TG_AUDIO_FILESIZE_LIMIT` : Maximum file size limit for audio files which can be streamed over vc. Defaults to 104857600 bytes, i.e. 100MB
-2. `TG_VIDEO_FILESIZE_LIMIT` : Maximum file size limit for video files which can be played. Defaults to 1073741824 bytes, i.e. 1024MB or 1GB
-
+1. `TG_AUDIO_FILESIZE_LIMIT` : Batas ukuran file maksimum untuk file audio yang dapat dialirkan melalui vc. Default ke 104857600 byte, yaitu 100MB
+2. `TG_VIDEO_FILESIZE_LIMIT` : Batas maksimum ukuran file untuk file video yang dapat diputar. Default ke 1073741824 byte, yaitu 1024MB atau 1GB
 
 ## Bot Vars
 
-- These all vars are used for setting up bot. You can edit these vars if you want , else leave all of them as it is.
+- Ini semua vars digunakan untuk mengatur bot. Anda dapat mengedit vars ini jika Anda mau, jika tidak, biarkan semuanya apa adanya.
 
-1. `PRIVATE_BOT_MODE` : Set it true if you want your bot to be private only or False for all groups. Default to False
-2. `YOUTUBE_EDIT_SLEEP` : Time sleep duration For Youtube Downloader. Default to 3 seconds
-3. `TELEGRAM_EDIT_SLEEP` : Time sleep duration For Telegram Downloader. Default to 5 seconds
-4. `AUTO_LEAVING_ASSISTANT` : Set it in True if you want to leave your assistant after a certain amount of time.
-5. `ASSISTANT_LEAVE_TIME` : Time after which your assistant account will leave served chats automatically. Default to 5400 seconds, i.e 90 Mins
-6. `AUTO_DOWNLOADS_CLEAR` : Set it True if you want to delete downloads after the music playout ends. 
-7. `AUTO_SUGGESTION_MODE` : Set it True if you want to bot to suggest about bot commands to random chats of your bots. 
-9. `AUTO_SUGGESTION_TIME` : Time after which your bot will suggest random 1/10 chats of your served chats about bot commands. Default to 5400 seconds, i.e 90 Mins
+1. `PRIVATE_BOT_MODE` : Setel true jika Anda ingin bot Anda menjadi pribadi saja atau False untuk semua grup. Default ke Salah
+2. `YOUTUBE_EDIT_SLEEP` : Durasi waktu tidur Untuk Youtube Downloader. Default ke 3 detik
+3. `TELEGRAM_EDIT_SLEEP` : Durasi waktu tidur Untuk Telegram Downloader. Default ke 5 detik
+4. `AUTO_LEAVING_ASSISTANT` : Setel ke True jika Anda ingin meninggalkan asisten setelah jangka waktu tertentu.
+5. `ASSISTANT_LEAVE_TIME` : Waktu setelah akun asisten Anda akan meninggalkan obrolan yang dilayani secara otomatis. Default ke 5400 detik, yaitu 90 Menit
+6. `AUTO_DOWNLOADS_CLEAR` : Setel True jika Anda ingin menghapus unduhan setelah pemutaran musik berakhir.
+7. `AUTO_SUGGESTION_MODE` : Setel True jika Anda ingin bot menyarankan tentang perintah bot ke obrolan acak bot Anda.
+9. `AUTO_SUGGESTION_TIME` : Waktu setelah bot Anda akan menyarankan 1/10 obrolan acak dari obrolan yang Anda layani tentang perintah bot. Default ke 5400 detik, yaitu 90 Menit
 
 ## Spotify Vars
 
-- You can play tracks or playlists from spotify from Yukki Music bot
-- You'll need these two vars to make spotify play working. This is not essential , you can leave them blank if you want.
+- Anda dapat memutar trek atau daftar putar dari spotify dari bot Yukki Music
+- Anda akan membutuhkan dua vars ini untuk membuat permainan spotify berfungsi. Ini tidak penting, Anda dapat membiarkannya kosong jika Anda mau.
 
-### How to get these? [Read from here](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/spotify)
-
-
-1. `SPOTIFY_CLIENT_ID` : Get it from https://developer.spotify.com/dashboard 
-2. `SPOTIFY_CLIENT_SECRET` : Get it from https://developer.spotify.com/dashboard 
-
+1. `SPOTIFY_CLIENT_ID` : Dapatkan dari https://developer.spotify.com/dashboard
+2. `SPOTIFY_CLIENT_SECRET` : Dapatkan dari https://developer.spotify.com/dashboard
 
 ## Heroku Vars
 
-- To work some Heroku compatible modules, this var value required to Access your account to use `get_log`, `usage`, `update` etc etc commands.
-- You can fill this var using your API key or Authorization token.
+- Untuk menjalankan beberapa modul yang kompatibel dengan Heroku, nilai var ini diperlukan untuk Mengakses akun Anda untuk menggunakan perintah `get_log`, `usage`, `update` dll dll.
+- Anda dapat mengisi var ini menggunakan kunci API atau token Otorisasi Anda.
 
-### How to get these? [Read from here](https://notreallyshikhar.gitbook.io/yukkimusicbot/config-vars/heroku-vars)
+1. `HEROKU_API_KEY` : Dapatkan dari http://dashboard.heroku.com/account
+2. `HEROKU_APP_NAME` : Anda harus memasukkan nama aplikasi yang Anda berikan untuk mengidentifikasi Bot Musik Anda di Heroku.
 
-1. `HEROKU_API_KEY` : Get it from http://dashboard.heroku.com/account 
-2. `HEROKU_APP_NAME` : You have to Enter the app name which you gave to identify your Music Bot in Heroku. 
+## Kustom Repo Vars
 
+- Jika Anda berencana untuk menggunakan Yukki Music Bot dengan kode Anda sendiri yang disesuaikan atau dimodifikasi.
 
-## Custom Repo Vars
+1. `UPSTREAM_REPO` : URL Repo Upstream Anda atau Repo Bercabang.
+2. `UPSTREAM_BRANCH` : Cabang Default dari URL Repo Hulu atau Repo Bercabang Anda.
+3. `GIT_TOKEN` : GIT TOKEN Anda jika repo upstream Anda bersifat pribadi
+4. `GITHUB_REPO` : URL Repo Github Anda, yang akan ditampilkan pada perintah /start
 
-- If you plan to use Yukki Music Bot with your own customized or modified code.
+## Gambar/Thumbnail Vars
 
-1. `UPSTREAM_REPO` : Your Upstream Repo URL or Forked Repo.
-2. `UPSTREAM_BRANCH` : Default Branch of your Upstream Repo URL or Forked Repo. 
-3. `GIT_TOKEN` : Your GIT TOKEN if your upstream repo is private
-4. `GITHUB_REPO` : Your Github Repo url, that will be shown on /start command
+- Anda dapat mengubah gambar yang digunakan di Yukki Music Bot.
+- Anda dapat membuat tautan telegaph dari [@YukkiTelegraphBot](http://t.me/YukkiTelegraphBot) dan menggunakannya di sini.
 
-
-
-## Images/Thumbnail Vars
-
-- You can change images which are used in Yukki Music Bot.
-- You can generate telegaph links from [@YukkiTelegraphBot](http://t.me/YukkiTelegraphBot) and use it here.
-
-1. `START_IMG_URL` : Image which comes on /start command in private messages of bot.
-2. `PING_IMG_URL` : Image which comes on /ping command of bot.
-3. `PLAYLIST_IMG_URL` : Image which comes on /play command of bot. 
-4. `GLOBAL_IMG_URL` : Image which comes on /stats command of bot. 
-5. `STATS_IMG_URL` : Image which comes on /stats command of bot. 
-6. `TELEGRAM_AUDIO_URL` : This image comes when someone plays audios from telegram. 
-7. `TELEGRAM_VIDEO_URL` : This image comes when someone plays videos from telegram. 
-8. `STREAM_IMG_URL` : his image comes when someone plays m3u8 or index links.
-9. `SOUNCLOUD_IMG_URL` : This image comes when someone plays music from soundcloud. 
-10. `YOUTUBE_IMG_URL` : This image comes if thumbnail generator fails to gen thumb anyhow.
-11. `SPOTIFY_ARTIST_IMG_URL` : This image comes when someone plays Spotify artist via link in inline mode. 
-12. `SPOTIFY_ALBUM_IMG_URL` : This image comes when someone plays Spotify album via link in inline mode. 
-13. `SPOTIFY_PLAYLIST_IMG_URL` : This image comes when someone plays Spotify album via link in inline mode. 
+1. `START_IMG_URL` : Gambar yang muncul pada perintah /start dalam pesan pribadi bot.
+2. `PING_IMG_URL` : Gambar yang muncul pada perintah /ping bot.
+3. `PLAYLIST_IMG_URL` : Gambar yang muncul pada perintah /play bot.
+4. `GLOBAL_IMG_URL` : Gambar yang muncul pada perintah /stats bot.
+5. `STATS_IMG_URL` : Gambar yang muncul pada perintah /stats bot.
+6. `TELEGRAM_AUDIO_URL` : Gambar ini muncul ketika seseorang memutar audio dari telegram.
+7. `TELEGRAM_VIDEO_URL` : Gambar ini muncul saat seseorang memutar video dari telegram.
+8. `STREAM_IMG_URL` : gambarnya muncul ketika seseorang memainkan m3u8 atau tautan indeks.
+9. `SOUNCLOUD_IMG_URL` : Gambar ini muncul saat seseorang memutar musik dari soundcloud.
+10. `YOUTUBE_IMG_URL` : Gambar ini muncul jika pembuat thumbnail gagal untuk membuat ibu jari.
+11. `SPOTIFY_ARTIST_IMG_URL` : Gambar ini muncul saat seseorang memutar artis Spotify melalui tautan dalam mode sebaris.
+12. `SPOTIFY_ALBUM_IMG_URL` : Gambar ini muncul ketika seseorang memutar album Spotify melalui tautan dalam mode sebaris.
+13. `SPOTIFY_PLAYLIST_IMG_URL` : Gambar ini muncul ketika seseorang memutar album Spotify melalui tautan dalam mode sebaris.
 
 ## Multi Assistant Mode
 
-- You can use upto 5 Assistant Clients ( allowing your bot to atleast work in 2000-2500 chats at a time )
+- Anda dapat menggunakan hingga 5 Asisten Klien (memungkinkan bot Anda setidaknya bekerja dalam 2000-2500 obrolan sekaligus)
 
-1. `STRING_SESSION2` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
-2. `STRING_SESSION3` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
-3. `STRING_SESSION4` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
-4. `STRING_SESSION5` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
+1. `STRING_SESSION2` : Diperlukan Sesi Pyrogram, Hasilkan string dari [@xastringbot](http://t.me/xastringrobot) di Telegram.
+2. `STRING_SESSION3` : Diperlukan Sesi Pyrogram, Hasilkan string dari [@xastringbot](http://t.me/xastringrobot) di Telegram.
+3. `STRING_SESSION4` : Diperlukan Sesi Pyrogram, Hasilkan string dari [@xastringbot](http://t.me/xastringrobot) di Telegram.
+4. `STRING_SESSION5` : Diperlukan Sesi Pyrogram, Hasilkan string dari [@xastringbot](http://t.me/xastringbot) di Telegram.
