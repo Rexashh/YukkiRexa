@@ -58,7 +58,7 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("tirexgugel")
-                await self.one.join_chat("inichannelrexa")
+                await self.one.join_chat("Xa_cmd")
                 await self.one.join_chat("rexaprivateroom")
             except:
                 pass
@@ -89,7 +89,7 @@ class Userbot(Client):
             await self.two.start()
             try:
                 await self.two.join_chat("tirexgugel")
-                await self.two.join_chat("inichannelrexa")
+                await self.two.join_chat("Xa_cmd")
                 await self.two.join_chat("rexaprivateroom")
             except:
                 pass
@@ -120,7 +120,7 @@ class Userbot(Client):
             await self.three.start()
             try:
                 await self.three.join_chat("tirexgugel")
-                await self.three.join_chat("inichannelrexa")
+                await self.three.join_chat("Xa_cmd")
                 await self.three.join_chat("rexaprivateroom")
             except:
                 pass
@@ -151,7 +151,7 @@ class Userbot(Client):
             await self.four.start()
             try:
                 await self.four.join_chat("tirexgugel")
-                await self.four.join_chat("inichannelrexa")
+                await self.four.join_chat("Xa_cmd")
                 await self.four.join_chat(".rexaprivateroom")
             except:
                 pass
@@ -182,7 +182,7 @@ class Userbot(Client):
             await self.five.start()
             try:
                 await self.five.join_chat("tirexgugel")
-                await self.five.join_chat("inichannelrexa")
+                await self.five.join_chat("Xa_cmd")
                 await self.five.join_chat("rexaprivateroom")
             except:
                 pass
