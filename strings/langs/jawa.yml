@@ -130,8 +130,8 @@ gstats_11 : "**Statistik Umum {0}**\nPilih tombol ing ngisor iki sing arep dipri
 # Muter
 
 #Play Callback
-play cb1 : "Iki dudu kanggo kowe! Golek Lagu Dewe."
-play cb2 : "Entuk Hasil Sabanjure"
+play_cb1 : "Iki dudu kanggo kowe! Golek Lagu Dewe."
+play_cb2 : "Entuk Hasil Sabanjure"
 
 # Saluran Play
 cplay_1 : "Sampeyan bisa muter musik ing Saluran saka obrolan iki [{0}] menyang saluran apa wae utawa Channdl sing disambung saka obrolan sampeyan.\n\n**Kanggo saluran sing disambung:**\n`/{1} disambung`\n \n* *Kanggo Saluran liyane:**\n`/{1} [ID Saluran]`"
@@ -192,14 +192,14 @@ str_2 : "✅ Aliran Valid Terverifikasi\n\nHarap tunggu memproses tautan.."
 str_3 : "Tidak dapat melakukan streaming streaming langsung youtube. Format Langsung Tidak Ditemukan"
 
 #TopPlay
-trek_1 : "**Memproses {0} Daftar Putar 10 Teratas**\nIni bisa memakan waktu beberapa menit (sekitar 3-4 menit).. Harap Tunggu...\n\n**👤Diminta Oleh:** {1}\ n\nPeriksa 10 lagu teratas menurut /gstats"
+track_1 : "**Memproses {0} Daftar Putar 10 Teratas**\nIni bisa memakan waktu beberapa menit (sekitar 3-4 menit).. Harap Tunggu...\n\n**👤Diminta Oleh:** {1}\ n\nPeriksa 10 lagu teratas menurut /gstats"
 track_2 : "**Error**\n\nTidak ada **{0} Top 10 Playlist** di server bot. Silakan coba playlist lain"
 
 # TOOLS
 
 #Lyrics
-lirik_1 : "**Panganggone:**\n\n/lirik [ Jeneng Musik]"
-lyric_2 : "Nggoleki Lirik"
+lyrics_1 : "**Panganggone:**\n\n/lirik [ Jeneng Musik]"
+lyrics_2 : "Nggoleki Lirik"
 lyrics_3 : "❌ Gagal njupuk lirik😞.\n\n💡**Nyoba Golek:** {0}"
 lyrics_4 : "Klik tombol ing ngisor iki lan goleki lirik kanggo ngindhari telusuran lirik jinis spam sing dawa."
 
@@ -223,9 +223,9 @@ song_11 : "Unggahan Diwiwiti\n\nKacepetan upload bisa uga alon. Mangga ngenteni 
 
 # Tools - Queue
 queue_1 : "Mohon Tunggu..Mengambil Antrian.."
-antrian_2 : "Daftar Antrian kosong. Tidak ada trek yang ditemukan"
+queue_2 : "Daftar Antrian kosong. Tidak ada trek yang ditemukan"
 queue_3 : "<u>**Trek Antrian:</u>** [Lihat Trek Antrian Lainnya Dari Sini]({0})"
-antrian_4 : "⏳ Ditambahkan ke Antrian di **#{0}\n\n💡Judul:** {1}\n**⏱Durasi:** {2}\n👤**Ditambahkan Oleh:** {3 }"
+queue_4 : "⏳ Ditambahkan ke Antrian di **#{0}\n\n💡Judul:** {1}\n**⏱️Durasi:** {2}\n👤**Ditambahkan Oleh:** {3}"
 queue_5 : "Hanya satu track di dalam antrian, Silahkan tambahkan lagi untuk check list"
 
 # All Streaming Lines
