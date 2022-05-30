@@ -1,5 +1,8 @@
 name : Sunda
-#By @JustRex
+# By https://t.me/JustRex
+# Lo clone boleh cuma ga usah hapus anjg hastag anjing
+
+
 # General Strings
 general_1 : "Bales pesen pamaké atawa nyadiakeun ngaran pamaké/user_id"
 general_2 : "Kasalahan! Salah Paréntah Pamakéan."
@@ -116,8 +119,8 @@ gstats_11 : "**Statistik Umum {0}**\nPilih tombol ti handap nu Anjeun hoyong par
 # Play 
 
 #Play Callback 
-play cb1 : "Ieu mah keur anjeun! Teangan Lagu sorangan."
-play cb2 : "Meunangkeun Hasil salajengna"
+play_cb1 : "Ieu mah keur anjeun! Teangan Lagu sorangan."
+play_cb2 : "Meunangkeun Hasil salajengna"
 
 # Saluran Play
 cplay_1 : "Anjeun tiasa muterkeun musik dina Saluran tina obrolan ieu [{0}] ka saluran mana waé atanapi saluran numbu ka obrolan anjeun.\n\n**Pikeun saluran numbu:**\n`/{1} numbu`\n \n* *Pikeun Saluran séjén:**\n`/{1} [ID Saluran]`"
@@ -184,7 +187,7 @@ track_2 : "**Error**\n\nTeu aya **{0} Top 10 Playlist** dina server bot. Mangga 
 
 #Lirik
 lyrics_1 : "**Pamakean:**\n\n/lirik [ Nami Musik]"
-lyric_2 : "Milarian Lirik"
+lyrics_2 : "Milarian Lirik"
 lyrics_3 : "❌ Gagal nyandak lirik😞.\n\n💡**Nyobaan Milarian:** {0}"
 lyrics_4 : "Klik tombol di handap tur neangan lirik pikeun nyingkahan panjang spam jenis pilarian lirik."
 
@@ -210,7 +213,7 @@ song_11 : "Unggahan Dimimitian\n\nLaju unggahna bisa jadi lambat. Mangga antosan
 queue_1 : "Punten Antosan..Nyandak Antrian.."
 queue_2 : "Daptar Antrian kosong. Teu kapanggih lagu"
 queue_3 : "<u>**Lagu Antrian:</u>** [Tingali Antrian Lain Ti dieu]({0})"
-queue_4 : "⏳ Ditambahkeun kana Antrian di **#{0}\n\n💡Judul:** {1}\n**⏱Durasi:** {2}\n👤**Ditambahkeun Ku:** {3 }"
+queue_4 : "⏳ Ditambahkeun kana Antrian di **#{0}\n\n💡Judul:** {1}\n**🕐Durasi:** {2}\n👤**Ditambahkeun Ku:** {3}"
 queue_5 : "Ngan hiji lagu dina antrian, Mangga tambahkeun deui ka daptar pariksa"
 
 # Sadaya Jalur Streaming
