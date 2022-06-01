@@ -1,5 +1,5 @@
 {
-    "name": "Yukki Music Bot",
+    "name": "Xa Yukki",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
     "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
     "keywords": [
@@ -15,12 +15,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "9446460",
+        "value": "",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "d668555bff16088a7daa453c08f43ab2",
+        "value": "",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
@@ -30,27 +30,26 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "5105615146:AAE5SL8Al0F3nu18zzer3jwGSkbq1QByRz0",
+        "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
-        "value": "mongodb+srv://xamusic:achil234@xamusic.v1gq2.mongodb.net/xamusic?retryWrites=true&w=majority",
-        "required": false
+        "value": ""
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. Please don't use ascii characters",
-        "value": "xa music",
+        "value": "",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "1224143544",
+        "value": "",
         "required": true
       },
       "STRING_SESSION": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "BQAAOrYoHDR6NOB2YBFDB1lya3YEeEq_LziMDSQhF7mwV9II_HPLuPn0eTpuAL3diC3lsm8AHwhaB5tfpi3ugtkCSsADStyJXDunDwAacB8oM7XdVYGUmHDg-Oj9zM4x4vOIN9A7LqPzuj9JrKypVCszzDbH_4tcDV84z7CE_72q3QQ6g198v6m3RmO1311G1teQqs_pxBsjprppVgci80DNO-a4lgk76Mh09lOnpR0RBY0Vz1vWwioiaOIGQHYliIEE2XOQ4OvB6PFTZr9gbdz46MvNYgdgzWxSAw0j56Z2v6KHBZKNDoyotS0g8IQPhhFuva6DKneeM1yyFiy6zeQje42gAwA",
+        "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -65,7 +64,7 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "-1001607737427",
+        "value": "",
         "required": true
       },
       "UPSTREAM_REPO": {
