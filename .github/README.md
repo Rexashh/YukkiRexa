@@ -9,11 +9,17 @@
 # YUKKI REXA
 
 <details>
+<summary><b>🚀 CONFIG VARS </b></summary>
+<br>
+
+- [klik disini](https://github.com/Rexashh/YukkiRexa/blob/master/config/README.md) Untuk Melihat semua vars yang tersedia
+</details>
+
+<details>
 <summary><b>🚀 STRING SESSION </b></summary>
 <br>
 <h4>ᴀᴍʙɪʟ sᴇssɪᴏɴ ᴠɪᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇʟᴀʟᴜɪ xᴀ sᴛʀɪɴɢ ʙᴏᴛ: </h4>    
-<p><a href="https://t.me/xastringrobot"><img src="https://img.shields.io/badge/xa%20string%20bot-black?style=for-the-badge&logo=appveyor" width="200""/></a></p>
-    
+<p><a href="https://t.me/xastringrobot"><img src="https://img.shields.io/badge/xa%20string%20bot-lightblue?style=for-the-badge&logo=appveyor" width="150""/></a></p> 
 </details>
 
 <details>
@@ -22,7 +28,7 @@
 
 ### ʜᴇʀᴏᴋᴜ   
 - klik tombol dibawah untuk deploy via Heroku :
-<p><a href="https://dashboard.heroku.com/new?template=https://github.com/Rexashh/YukkiRexa/tree/master"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>  
+<p><a href="https://dashboard.heroku.com/new?template=https://github.com/Rexashh/YukkiRexa/tree/master"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="150""/></a></p>  
 
 ### ᴠᴘs
 - Upgrade & Update :
