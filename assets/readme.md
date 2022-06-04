@@ -1,11 +1,11 @@
-## Yukki Assets Folder
+## Music Assets Folder
 
-# Contains all the fonts and thumb related files.
+# Berisi semua font dan file terkait.
 
 ```console
-font.ttf & font2.ttf - Font File for Thumbnails Generation
+font.ttf & font2.ttf - File Font untuk Generasi Thumbnail
 ```
-- > If you want can change your font for thumbnails , change these files from here.
+-> Jika Anda ingin dapat mengubah font Anda untuk thumbnail, ubah file-file ini dari sini.
 
 ```console
 Audio.jpeg - Thumbnail Image to be send when someone plays Audio files from telegram.
