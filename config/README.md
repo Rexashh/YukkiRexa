@@ -51,8 +51,8 @@ Config vars pada dasarnya adalah variabel yang mengonfigurasi atau memodifikasi 
 - Anda dapat memutar trek atau daftar putar dari spotify dari bot Yukki Music
 - Anda akan membutuhkan dua vars ini untuk membuat permainan spotify berfungsi. Ini tidak penting, Anda dapat membiarkannya kosong jika Anda mau.
 
-1. `SPOTIFY_CLIENT_ID` : Dapatkan dari https://developer.spotify.com/dashboard
-2. `SPOTIFY_CLIENT_SECRET` : Dapatkan dari https://developer.spotify.com/dashboard
+1. `SPOTIFY_CLIENT_ID` : Dapatkan [disini](https://developer.spotify.com/dashboard)
+2. `SPOTIFY_CLIENT_SECRET` : Dapatkan [disini](https://developer.spotify.com/dashboard)
 
 ## Heroku Vars
 
